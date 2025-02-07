@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/passeport-digital",
-  assetPrefix: "/passeport-digital",
+  basePath: "/NFT-et-Metavserse-Presentation-Final",
+  assetPrefix: "/NFT-et-Metavserse-Presentation-Final",
 }
 
 module.exports = nextConfig
