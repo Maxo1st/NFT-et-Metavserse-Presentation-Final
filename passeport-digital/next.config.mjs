@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: "export",
   images: {
     unoptimized: true,
   },
-  assetPrefix: '/passeport-digital',
-  basePath: '/passeport-digital',
+  basePath: "/NFT-et-Metavserse-Presentation-Final",
+  assetPrefix: "/NFT-et-Metavserse-Presentation-Final",
 }
 
-export default nextConfig;
+module.exports = nextConfig
