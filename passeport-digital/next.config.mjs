@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: '/your-repo-name',
-  basePath: '/your-repo-name',
+  assetPrefix: '/passeport-digital',
+  basePath: '/passeport-digital',
 }
 
 export default nextConfig;
