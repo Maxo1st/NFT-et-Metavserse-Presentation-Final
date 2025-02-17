@@ -1,18 +1,27 @@
+import Head from "next/head"
 import Header from "../components/header"
 import NavSquares from "../components/nav-squares"
 import GridSquares from "../components/grid-squares"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100">
+      <Head>
+        <title>Passeport Digital</title>
+        <meta name="description" content="Passeport Digital pour les étudiants de Paris Dauphine" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <Header />
-      <div className="pt-2">
-        <NavSquares />
-      </div>
-      <div className="p-4 max-w-4xl mx-auto">
-        <GridSquares />
-      </div>
-    </main>
+      <main>
+        <div className="pt-2">
+          <NavSquares />
+        </div>
+        <div className="p-4 max-w-4xl mx-auto">
+          <GridSquares />
+        </div>
+      </main>
+    </div>
   )
 }
 
