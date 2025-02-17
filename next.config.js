@@ -7,6 +7,13 @@ const nextConfig = {
   },
   basePath: "/NFT-et-Metavserse-Presentation-Final",
   assetPrefix: "/NFT-et-Metavserse-Presentation-Final",
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      "@": ".",
+    }
+    return config
+  },
 }
 
 module.exports = nextConfig
