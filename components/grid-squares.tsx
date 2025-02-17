@@ -13,7 +13,7 @@ const GridSquares = () => {
   ]
 
   return (
-    <div className="grid grid-cols-2 gap-4">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
       {squares.map((square) => (
         <Link key={square.id} href={square.href} className="block h-full">
           <div className="aspect-square bg-white rounded-lg shadow-md flex items-center justify-center p-4 text-center font-semibold text-gray-700 hover:bg-gray-50 transition-colors">
