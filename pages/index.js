@@ -17,7 +17,7 @@ export default function Home() {
         <div className="pt-2">
           <NavSquares />
         </div>
-        <div className="p-4 max-w-4xl mx-auto">
+        <div className="p-4 max-w-6xl mx-auto">
           <GridSquares />
         </div>
       </main>
