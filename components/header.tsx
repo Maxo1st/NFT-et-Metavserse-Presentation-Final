@@ -1,10 +1,10 @@
 import { Search, Settings } from "lucide-react"
-import { Input } from "../components/ui/input"
+import { Input } from "./ui/input"
 import Image from "next/image"
 
 export default function Header() {
   return (
-    <header className="bg-[#00326E] p-4 space-y-4 relative">
+    <header className="bg-[#00326E] p-4 space-y-4">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold text-white flex items-center font-sans">
           Passeport{" "}
@@ -30,6 +30,4 @@ export default function Header() {
     </header>
   )
 }
-
-
 
