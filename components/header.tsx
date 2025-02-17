@@ -1,5 +1,5 @@
 import { Search, Settings } from "lucide-react"
-import { Input } from "./ui/input"
+import { Input } from "@/components/ui/input"
 import Image from "next/image"
 
 export default function Header() {
