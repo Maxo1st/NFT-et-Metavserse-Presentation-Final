@@ -1,19 +1,18 @@
-import Head from "next/head"
+import Header from "../components/header"
+import NavSquares from "../components/nav-squares"
+import GridSquares from "../components/grid-squares"
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>NFT et Metaverse Presentation</title>
-        <meta name="description" content="NFT et Metaverse Presentation" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <h1>Welcome to NFT et Metaverse Presentation</h1>
-        <p>This is the main page of our application.</p>
-      </main>
-    </div>
+    <main className="min-h-screen bg-gray-100">
+      <Header />
+      <div className="pt-2">
+        <NavSquares />
+      </div>
+      <div className="p-4 max-w-4xl mx-auto">
+        <GridSquares />
+      </div>
+    </main>
   )
 }
 
